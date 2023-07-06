@@ -1,0 +1,48 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url('C:/Users/luank/Desktop/html vsCode/TDI/Imagens/fundoDoSite.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Adicione uma opacidade ao fundo para melhorar a legibilidade */
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 3px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

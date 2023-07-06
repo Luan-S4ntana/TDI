@@ -3,6 +3,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
+    background-image: url('C:/Users/luank/Desktop/html vsCode/TDI/Imagens/fundoDoIndex.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   h1 {
