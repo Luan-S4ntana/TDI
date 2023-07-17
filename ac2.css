@@ -1,4 +1,4 @@
-/* ac2.css */
+/* ac1.css */
 
 /* Estilos gerais */
 body {
@@ -6,39 +6,53 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
-}
-
-* {
+  }
+  
+  .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
+  }
+  
+  h1 {
     text-align: center;
     color: #333;
-}
-
-ul {
+  }
+  
+  ul {
     list-style: none;
     padding: 0;
-}
-
-li {
+  }
+  
+  li {
     margin-bottom: 10px;
-}
-
-img {
+  }
+  
+  span {
+    font-weight: bold;
+  }
+  
+  img {
     display: block;
     max-width: 100%;
     height: auto;
     margin-top: 20px;
-}
-
-/* Estilos responsivos */
-@media (max-width: 768px) {
+  }
+  
+  /* Estilos específicos */
+  .image-item {
+    background-image: url("C:/Users/luank/Desktop/html vsCode/TDI/Imagens/Ac2.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
     .container {
         padding: 10px;
     }
@@ -46,4 +60,5 @@ img {
     h1 {
         font-size: 24px;
     }
-}
+  }
+  

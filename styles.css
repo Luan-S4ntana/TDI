@@ -1,67 +1,68 @@
 /* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-image: url('C:/Users/luank/Desktop/html vsCode/TDI/Imagens/fundoDoIndex.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  .card-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-  }
-  
-  /* Estilos para os cards */
-  .card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-img-top {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .card-body {
-    padding: 15px;
-  }
-  
-  .card-title {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .card-text {
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 15px;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 8px 16px;
-    border-radius: 4px;
-    text-decoration: none;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 14px;
-  }
-  
-  .btn:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Estilos para os cards nas linhas 2, 3 e 4 */
-  .card:nth-child(n+4) {
-    margin-top: 20px;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("C:/Users/luank/Desktop/html vsCode/TDI/Imagens/fundo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Estilos do álbum */
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.photo {
+  width: 300px;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+.caption .title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.caption .price {
+  font-weight: bold;
+}
+
+.caption a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.caption a:hover {
+  background-color: #0056b3;
+}
